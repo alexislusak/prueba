@@ -56,4 +56,7 @@ yerrfondo=np.std(fondo[0:500,1])
 for i in range(len(fondo[:,1])):
     if fondo[i,1] <= yerrfondo:
         fondo[i,1]=yerrfondo
+        
+A=np.zeros([3,5],dtype=int)
+
 
